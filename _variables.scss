@@ -3,6 +3,8 @@
 /*Body*/
 $body-font-family: "Roboto", sans-serif;
 $Body-margin: 0;
+$most-used-text-color: white;
+$most-used-text-color-2: black;
 
 
 /*Header*/
@@ -21,6 +23,11 @@ $section-1-flex-direction: row;
 //ul
 $ul-list-style: none;
 
+//.header
+$__header-margin: 0 auto;
+$__header-width: 55%;
+$__header-transform: translateY(50px);
+
 //li-middle
 $ul-middle-gap: 2em;
 $ul-middle-transform: translateX(14rem);
@@ -30,3 +37,21 @@ $li-end-transform: translateX(18rem);
 
 //h3
 $h3-transform: translateY(-20px);
+
+//strong
+$strong-weight: normal;
+$strong-weight-2: bold;
+$strong-color: red;
+$strong-animation-Name: strong_weight;
+
+//button 
+$align-text: center;
+$button-transform: translateX(540px);
+$button-margin-top: 7rem;
+$button-border-rad: 10px;
+$button-width: 150px;
+$button-height: 40px;
+$button-border: 2px solid $most-used-text-color;
+$button-transform-2: translateX(590px);
+$button-transform-3: translateX(490px);
+$button-transition: 1s;
