@@ -38,6 +38,12 @@ header {
           color: $most-used-text-color;
           font-weight: $strong-weight-2;
      }
+     h3, h1 {
+          color: $most-used-text-color;
+     }
+     h1 {
+          font-size: $h1_FontSize;
+     }
 }
 
 .header {
@@ -48,7 +54,7 @@ header {
      transform: $__header-transform;
 }
 
-button {
+.btn-1, .btn-2 {
      width: $button-width;
      height: $button-height;
      text-align: $align-text;
@@ -91,5 +97,36 @@ strong {
      to {
           font-weight: $strong-weight-2;
           color: $strong-color;
+     }
+}
+
+
+.section-2 {
+   
+     .img-section-2 {
+          width: 25rem;
+          height: 30rem;
+          margin: 0 5rem;
+          float: left;
+          border-radius: 5%;
+     }
+     .bold {
+          font-weight: $strong-weight-2;
+          font-size: $h1_FontSize / 2;
+          color: rgba(5, 146, 24, 0.854);
+          animation: bo_ld 1s infinite;
+     }
+       .section-1-div-text {
+          transform: translateY(100px);
+       }
+}
+
+@keyframes  bo_ld {
+     from {
+          text-shadow: none;
+     }
+     to {
+          text-shadow: -2px -2px 1px rgb(6, 6, 6);
+
      }
 }

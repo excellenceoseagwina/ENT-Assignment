@@ -39,6 +39,12 @@ header li {
   color: white;
   font-weight: bold;
 }
+header h3, header h1 {
+  color: white;
+}
+header h1 {
+  font-size: 45px;
+}
 
 .header {
   margin: 0 auto;
@@ -48,7 +54,7 @@ header li {
   transform: translateY(50px);
 }
 
-button {
+.btn-1, .btn-2 {
   width: 150px;
   height: 40px;
   text-align: center;
@@ -61,12 +67,12 @@ button {
 }
 
 [class=btn-1] {
-  transform: translateX(490px);
+  transform: translateX(435px);
   background-color: black;
 }
 
 [class=btn-2] {
-  transform: translateX(590px);
+  transform: translateX(525px);
   background: none;
 }
 
@@ -94,5 +100,30 @@ strong {
   to {
     font-weight: bold;
     color: red;
+  }
+}
+.section-2 .img-section-2 {
+  width: 25rem;
+  height: 30rem;
+  margin: 0 5rem;
+  float: left;
+  border-radius: 5%;
+}
+.section-2 .bold {
+  font-weight: bold;
+  font-size: 22.5px;
+  color: rgba(5, 146, 24, 0.854);
+  animation: bo_ld 1s infinite;
+}
+.section-2 .section-1-div-text {
+  transform: translateY(100px);
+}
+
+@keyframes bo_ld {
+  from {
+    text-shadow: none;
+  }
+  to {
+    text-shadow: -2px -2px 1px rgb(6, 6, 6);
   }
 }
