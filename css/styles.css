@@ -1,4 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+/*Body*/
+/*Header*/
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+
+header {
+  background: url(../assets/images/bg.jpg);
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  padding: 0.1rem;
+  background-repeat: no-repeat;
 }

@@ -2,4 +2,16 @@
 
 body {
      font-family: $body-font-family;
+     margin: $Body-margin;
+}
+
+header {
+     background: $header-img;
+     width: 100%;
+     background-size: cover;
+     background-position: center;
+     padding: 0.1rem;
+     background-repeat: no-repeat;
+
+     
 }
