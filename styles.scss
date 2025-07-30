@@ -7,11 +7,65 @@ body {
 
 header {
      background: $header-img;
-     width: 100%;
-     background-size: cover;
-     background-position: center;
-     padding: 0.1rem;
-     background-repeat: no-repeat;
+     width: $header-width;
+     background-size: $header-background-size;
+     background-position: $header-background-position;
+     padding: $header-padding;
+     height: $header-height;
+     background-repeat: $header-background-repeat;
+     .section-1 {
+          display: $section-1-display;
+          flex-direction: $section-1-flex-direction;
+     }
+     nav > [class="ul-middle"] {
+          display: $section-1-display;
+          flex-direction: $section-1-flex-direction;
+          list-style: $ul-list-style;
+          transform: $ul-middle-transform;
+          gap: $ul-middle-gap;
+     }
 
-     
+     ul > [class="li-end"]  {
+          display: $section-1-display;
+          flex-direction: $section-1-flex-direction;
+          list-style: $ul-list-style;
+          transform: $li-end-transform;
+     }
+     h3 {
+          transform: $h3-transform;
+     }
 }
+
+.header {
+     margin: 0 auto;
+     width: 55%;
+     text-align: center;
+     color: white;
+     transform: translateY(50px);
+
+}
+
+button {
+     text-align: center;
+     transform: translateX(540px);
+     margin-top: 10rem;
+}
+[class="btn-1"] {
+      transform: translateX(460px);
+      width: 150px;
+      height: 40px;
+      border-radius: 10px;
+      color: green;
+      font-weight: bold;
+      border: 1px solid white;
+ }
+
+[class="btn-2"] {
+     transform: translateX(599px);
+     width: 150px;
+      height: 40px;
+      border-radius: 10px;
+    }
+
+
+ 

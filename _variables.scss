@@ -7,3 +7,26 @@ $Body-margin: 0;
 
 /*Header*/
 $header-img: url(../assets/images/bg.jpg);
+$header-width: 100%;
+$header-background-size: cover;
+$header-background-position: center;
+$header-padding: 0.1rem;
+$header-height: 80vh;
+$header-background-repeat: no-repeat;
+
+//section-1 
+$section-1-display: flex;
+$section-1-flex-direction: row;
+
+//ul
+$ul-list-style: none;
+
+//li-middle
+$ul-middle-gap: 2em;
+$ul-middle-transform: translateX(14rem);
+
+//li-end {
+$li-end-transform: translateX(18rem);
+
+//h3
+$h3-transform: translateY(-20px);
