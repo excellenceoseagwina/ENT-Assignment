@@ -13,6 +13,8 @@ header {
      padding: $header-padding;
      height: $header-height;
      background-repeat: $header-background-repeat;
+     background-blend-mode: $header-background-blend;
+     background-color: $header-background-color;
      .section-1 {
           display: $section-1-display;
           flex-direction: $section-1-flex-direction;
@@ -25,11 +27,11 @@ header {
           gap: $ul-middle-gap;
      }
 
-     ul > [class="li-end"]  {
+     ul > [class="search"]  {
           display: $section-1-display;
           flex-direction: $section-1-flex-direction;
           list-style: $ul-list-style;
-          transform: $li-end-transform;
+          transform: $search-transform;
      }
      h3 {
           transform: $h3-transform;
@@ -49,21 +51,25 @@ header {
 .header {
      margin: $__header-margin;
      width: $__header-width;
-     text-align: $align-text;
+     text-align: $header-background-position;
      color: $most-used-text-color;
      transform: $__header-transform;
+     .head_1 {
+          font-size: $header_font-size;
+     }
 }
 
 .btn-1, .btn-2 {
      width: $button-width;
      height: $button-height;
-     text-align: $align-text;
+     text-align: $header-background-position;
      transform: $button-transform;
      margin-top: $button-margin-top;
      border-radius: $button-border-rad;
      color: $most-used-text-color;
      font-weight: $strong-weight-2;
      border: $button-border;
+     cursor: $mouse; 
 }
 [class="btn-1"] {
      transform: $button-transform-3;
@@ -72,7 +78,7 @@ header {
 
 [class="btn-2"] {
      transform: $button-transform-2;
-      background: none;
+      background: $ul-list-style;
     }
     [class="btn-1"]:hover {
           background-color: $most-used-text-color;
@@ -100,33 +106,106 @@ strong {
      }
 }
 
-
 .section-2 {
-   
+     margin-bottom: 300px;
      .img-section-2 {
-          width: 25rem;
-          height: 30rem;
-          margin: 0 5rem;
-          float: left;
-          border-radius: 5%;
+          width: $img-width;
+          height: $img-height;
+          margin: $img-margin;
+          float: $img-float;
+          border-radius: $img-border-radius;
      }
      .bold {
           font-weight: $strong-weight-2;
           font-size: $h1_FontSize / 2;
-          color: rgba(5, 146, 24, 0.854);
-          animation: bo_ld 1s infinite;
+          color: $bold-color;
+          animation: bo_ld $bold-animate;
      }
        .section-1-div-text {
-          transform: translateY(100px);
+          transform: $bold_transform;
+       }
+       h4, h2 {
+          text-align: $header-background-position;
+          color: $h-bg;
+          margin: $Body-margin;
+       }
+       h4 {
+          margin-top: $h-margin;
+       }
+       .div-1, .div-2 {
+          font-size: $div-1-font-size;
+          width: $div-1-width;
+       } 
+       .btn-3 {
+          background-color: $btn-3-bg;
+          color: $most-used-text-color-2;
+          width: $btn-width;
+          font-weight: $strong-weight-2;
+          padding: $btn-3-padding;
+          border-radius: $button-border-rad;
+          border: $button-border-3;
+          cursor: $mouse;
+       }
+       .btn-3:hover {
+          background-color: $most-used-text-color-2;
+          color: $most-used-text-color;
+          transition: $btn-3-hover-time;
+       }
+       .time {
+          font-size: $p-time-font-size;
+          width: $p-time-width;
+          margin-left: $p-time-margin-left;
        }
 }
 
 @keyframes  bo_ld {
      from {
-          text-shadow: none;
+          text-shadow: $ul-list-style;
      }
      to {
-          text-shadow: -2px -2px 1px rgb(6, 6, 6);
+          text-shadow: $bold-animate-2;
+     }
+}
 
+
+.section-3 {
+         background-color: $section-3-bg;
+         padding: $section-3-padding;
+}
+.background {
+ 
+          margin-top: $section-3-marg-top;
+          width: $section-3-width;
+          display: $section-1-display;
+          flex-direction: $section-1-flex-direction;
+          margin-left: $__header-margin;
+          margin-right: $__header-margin;
+          font-size: $section-3-font-size;
+          gap: $section-3-gap;
+     img {
+          width: $section-3-img;
+     }
+
+     img, h5 {
+          display: $section-1-display;
+          flex-direction: $section-1-flex-direction;
+          gap: $section-3-gap;
+     }
+     .first, .second, .third {
+          border-radius: $section-3-rad;
+          font-size: $section-3-font-s;
+          width: $section-3-div-width;
+          background-color: $most-used-text-color;
+          padding: $section-3-padding-div;
+          border: $button-border-3;
+          
+           h5 {
+          font-size: $section-3-h5;
+     }
+     }
+     i {
+          color: $strong-color;
+          font-weight: $strong-weight;
+          font-size: $div-1-font-size;
      }
 }
