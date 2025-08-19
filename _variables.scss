@@ -1,11 +1,10 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /*Body*/
 $body-font-family: "Roboto", sans-serif;
 $Body-margin: 0;
 $most-used-text-color: white;
 $most-used-text-color-2: black;
-
 
 /*Header*/
 $header-img: url(../assets/images/bg.jpg);
@@ -19,7 +18,7 @@ $header-height: 80vh;
 $header-background-color: rgba(0, 0, 0, 0.612);
 $header-background-repeat: no-repeat;
 
-//section-1 
+//section-1
 $section-1-display: flex;
 $section-1-flex-direction: row;
 
@@ -47,9 +46,9 @@ $strong-weight-2: bold;
 $strong-color: red;
 $strong-animation-Name: strong_weight;
 
-//h1 
+//h1
 $h1_FontSize: 45px;
-//button 
+//button
 $button-transform: translateX(540px);
 $button-margin-top: 4rem;
 $button-border-rad: 10px;
@@ -64,7 +63,7 @@ $mouse: pointer;
 /*Section 2*/
 $bold-color: rgba(5, 146, 247, 0.854);
 $bold-animate: 1s infinite;
-$bold-animate-2:  -2px -2px 1px rgb(183, 183, 183);
+$bold-animate-2: -2px -2px 1px rgb(183, 183, 183);
 $bold_transform: translateY(100px);
 $button-border-3: 2px solid $most-used-text-color-2;
 $btn-3-bg: rgb(254, 250, 250);
@@ -77,18 +76,17 @@ $img-margin: $Body-margin 5rem;
 $img-float: left;
 $img-border-radius: 4%;
 $h-bg: rgb(6, 82, 82);
-$h-margin : 4rem;
+$h-margin: 4rem;
 $div-1-font-size: 0.8rem;
 $div-1-width: 90%;
 $p-time-font-size: 12px;
 $p-time-width: 50%;
 $p-time-margin-left: 580px;
 
-
 /*Section 3*/
 $section-3-gap: 15px;
 $section-3-rad: 10px;
-$section-3-font-s: .8em;
+$section-3-font-s: 0.8em;
 $section-3-div-width: 140em;
 $section-3-padding-div: 1em;
 $section-3-img: 30px;
