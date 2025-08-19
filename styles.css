@@ -36,6 +36,9 @@ header ul > [class=search] {
   list-style: none;
   transform: translateX(13rem);
 }
+header ul > [class=search] .img-search {
+  width: 2em;
+}
 header h3 {
   transform: translateY(-20px);
 }
@@ -217,4 +220,11 @@ strong {
   color: red;
   font-weight: normal;
   font-size: 0.8rem;
+}
+
+.back-top {
+  width: 30px;
+  position: fixed;
+  right: 50px;
+  bottom: 40px;
 }/*# sourceMappingURL=styles.css.map */

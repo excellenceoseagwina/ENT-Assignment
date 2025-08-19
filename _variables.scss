@@ -36,6 +36,7 @@ $ul-middle-transform: translateX(14rem);
 
 //li-end {
 $search-transform: translateX(13rem);
+$search-width: 2em;
 
 //h3
 $h3-transform: translateY(-20px);
@@ -97,3 +98,7 @@ $section-3-h5: 1.3em !important;
 $section-3-marg-top: 4em;
 $section-3-padding: 1rem;
 $section-3-margin: auto;
+
+//back to top
+$back_top_right: 50px;
+$back_top_position: fixed;

@@ -15,11 +15,13 @@ header {
   background-repeat: $header-background-repeat;
   background-blend-mode: $header-background-blend;
   background-color: $header-background-color;
+
   .section-1 {
     display: $section-1-display;
     flex-direction: $section-1-flex-direction;
   }
-  nav > [class="ul-middle"] {
+
+  nav>[class="ul-middle"] {
     display: $section-1-display;
     flex-direction: $section-1-flex-direction;
     list-style: $ul-list-style;
@@ -27,23 +29,31 @@ header {
     gap: $ul-middle-gap;
   }
 
-  ul > [class="search"] {
+  ul>[class="search"] {
     display: $section-1-display;
     flex-direction: $section-1-flex-direction;
     list-style: $ul-list-style;
     transform: $search-transform;
+
+    .img-search {
+      width: $search-width;
+    }
   }
+
   h3 {
     transform: $h3-transform;
   }
+
   li {
     color: $most-used-text-color;
     font-weight: $strong-weight-2;
   }
+
   h3,
   h1 {
     color: $most-used-text-color;
   }
+
   h1 {
     font-size: $h1_FontSize;
   }
@@ -55,6 +65,7 @@ header {
   text-align: $header-background-position;
   color: $most-used-text-color;
   transform: $__header-transform;
+
   .head_1 {
     font-size: $header_font-size;
   }
@@ -73,6 +84,7 @@ header {
   border: $button-border;
   cursor: $mouse;
 }
+
 [class="btn-1"] {
   transform: $button-transform-3;
   background-color: $most-used-text-color-2;
@@ -82,11 +94,13 @@ header {
   transform: $button-transform-2;
   background: $ul-list-style;
 }
+
 [class="btn-1"]:hover {
   background-color: $most-used-text-color;
   transition: $button-transition;
   color: $most-used-text-color-2;
 }
+
 [class="btn-2"]:hover {
   background-color: $most-used-text-color-2;
   transition: $button-transition;
@@ -102,6 +116,7 @@ strong {
     font-weight: $strong-weight;
     color: $most-used-text-color-2;
   }
+
   to {
     font-weight: $strong-weight-2;
     color: $strong-color;
@@ -110,6 +125,7 @@ strong {
 
 .section-2 {
   margin-bottom: 300px;
+
   .img-section-2 {
     width: $img-width;
     height: $img-height;
@@ -117,29 +133,35 @@ strong {
     float: $img-float;
     border-radius: $img-border-radius;
   }
+
   .bold {
     font-weight: $strong-weight-2;
     font-size: $h1_FontSize / 2;
     color: $bold-color;
     animation: bo_ld $bold-animate;
   }
+
   .section-1-div-text {
     transform: $bold_transform;
   }
+
   h4,
   h2 {
     text-align: $header-background-position;
     color: $h-bg;
     margin: $Body-margin;
   }
+
   h4 {
     margin-top: $h-margin;
   }
+
   .div-1,
   .div-2 {
     font-size: $div-1-font-size;
     width: $div-1-width;
   }
+
   .btn-3 {
     background-color: $btn-3-bg;
     color: $most-used-text-color-2;
@@ -150,11 +172,13 @@ strong {
     border: $button-border-3;
     cursor: $mouse;
   }
+
   .btn-3:hover {
     background-color: $most-used-text-color-2;
     color: $most-used-text-color;
     transition: $btn-3-hover-time;
   }
+
   .time {
     font-size: $p-time-font-size;
     width: $p-time-width;
@@ -166,6 +190,7 @@ strong {
   from {
     text-shadow: $ul-list-style;
   }
+
   to {
     text-shadow: $bold-animate-2;
   }
@@ -175,6 +200,7 @@ strong {
   background-color: $section-3-bg;
   padding: $section-3-padding;
 }
+
 .background {
   margin-top: $section-3-marg-top;
   width: $section-3-width;
@@ -184,6 +210,7 @@ strong {
   margin-right: $section-3-margin;
   font-size: $section-3-font-size;
   gap: $section-3-gap;
+
   img {
     width: $section-3-img;
   }
@@ -194,6 +221,7 @@ strong {
     flex-direction: $section-1-flex-direction;
     gap: $section-3-gap;
   }
+
   .first,
   .second,
   .third {
@@ -208,6 +236,7 @@ strong {
       font-size: $section-3-h5;
     }
   }
+
   i {
     color: $strong-color;
     font-weight: $strong-weight;
@@ -215,4 +244,9 @@ strong {
   }
 }
 
-
+.back-top {
+  width: $section-3-img;
+  position: $back_top_position;
+  right: $back_top_right;
+  bottom: $button-height;
+}
