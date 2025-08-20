@@ -5,6 +5,7 @@ $body-font-family: "Roboto", sans-serif;
 $Body-margin: 0;
 $most-used-text-color: white;
 $most-used-text-color-2: black;
+$most-used-width: 100%;
 
 /*Header*/
 $header-img: url(../assets/images/bg.jpg);
@@ -93,12 +94,15 @@ $section-3-padding-div: 1em;
 $section-3-img: 30px;
 $section-3-font-size: 0.9em;
 $section-3-width: 80%;
-$section-3-bg: rgb(243, 240, 240);
+$section-3-bg: rgb(99, 86, 86);
 $section-3-h5: 1.3em !important;
-$section-3-marg-top: 4em;
+$section-3-marg-top: 1em;
 $section-3-padding: 1rem;
 $section-3-margin: auto;
 
 //back to top
 $back_top_right: 50px;
 $back_top_position: fixed;
+
+//Section 4
+$img-width-left: 399px;
